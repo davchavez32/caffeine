@@ -1,6 +1,6 @@
 @extends('layouts.default')
 @section('content')
-    <div class="container mt-3">
+    <div class="container">
         <h1>Selected Beverage Was: {{ $selectedBeverageWas[1] }} = {{$selectedBeverageWas[0]}}mg</h1>
         <br>
         <h3>Best Possible Combination of Beverages you can consume:</h3>

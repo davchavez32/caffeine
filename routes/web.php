@@ -13,9 +13,7 @@ use App\Http\Controllers\BeverageController;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', [BeverageController::class, 'getBeverages']);
 
 Route::get('getBeverages', [BeverageController::class, 'getBeverages'])->name('getBeverages');
 
